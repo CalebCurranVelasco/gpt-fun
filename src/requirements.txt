@@ -8,4 +8,3 @@ streamlit==1.25.0
 tiktoken
 faiss-cpu
 youtube-transcript-api
-
