@@ -1,5 +1,5 @@
 beautifulsoup4==4.12.2
-langchain==0.0.265
+langchain==0.0.240
 openai==0.27.8
 PyPDF2==3.0.1
 python-dotenv==1.0.0
