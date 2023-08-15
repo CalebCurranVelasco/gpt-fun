@@ -13,6 +13,7 @@ from htmlTemplates import css, bot_template, user_template
 
 def main():
     load_dotenv(find_dotenv())
+    OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
     st.set_page_config(page_title="Medical Diagnosis", page_icon=":dna:")
     st.write(css, unsafe_allow_html=True)
 

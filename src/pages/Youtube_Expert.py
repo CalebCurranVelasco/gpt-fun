@@ -18,6 +18,7 @@ import streamlit as st
 
 
 load_dotenv(find_dotenv())
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 embeddings = OpenAIEmbeddings()
 
 def create_db_from_youtube_video_url(video_url):

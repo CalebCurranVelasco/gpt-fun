@@ -11,6 +11,7 @@ import os
 from langchain.chat_models import ChatOpenAI
 
 load_dotenv(find_dotenv())
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 # Function to load the vector store from the disk
 def load_vector_store(filename):

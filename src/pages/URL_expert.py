@@ -15,7 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 
 load_dotenv(find_dotenv())
-# OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 
 #gets the text from the pdfs
 # def process_urls(urls):
